@@ -7,6 +7,21 @@ package com.pbe;
  */
 
 
+// *********************
+// JFC & SWING
+// *********************
+// JFC is short for Java Foundation Classes.
+// It encompass a group of features for building graphical user interfaces (GUIs) and adding rich graphics functionality and interactivity to Java applications.
+// Supported features:
+// - Swing GUI Components: buttons, split panes, tablets, with each component supported with all kind of features
+// - Pluggable Look-and-Feel Support: look & feel can be customized
+// - Accessibility API: enabling assistive technologies
+// - Java 2D API: to easily incorporate 2D graphics, text, and images in applications and applets
+// - Internationalization: build applications that can operate in any language and cultural convention
+
+// The Swing API consists of 18 public packages. Most programs use only a small subset of the API.
+
+
 import javax.swing.*;
 
 // Oracle Hello World example with Swing
