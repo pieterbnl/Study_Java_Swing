@@ -30,6 +30,12 @@ public class HelloWorldSwing {
     private static void createAndShowGUI() {
 
         // Create and setup a window
+        // JFrame is a commonly used basic display window that you can place other Swing components on to build a UI
+        // JFrame is a top level window, complete with title and border. It acts like a container that holds and displays components.
+        // Swing provides 3 top-level containers: JFrame, JDialog (dialog windows), JApplet (window in browser - deprecated)
+        // When adding a component to a JFrame, it's actually added to a 'panel container'.
+        // Every JFrame has a panel which is the main display area of the window. I.e. everything below the title bar.
+        // JFrame contains another container that can be used to add a menu to the window.
         JFrame frame = new JFrame("HelloWorldSwing");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
